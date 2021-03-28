@@ -1,5 +1,6 @@
 import 'dart:io';
 import 'package:maps/provider/user_places.dart';
+import 'package:maps/widgets/location_input.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter/material.dart';
 import '../widgets/image_input.dart';
@@ -51,6 +52,10 @@ class _AddPlacesScreenState extends State<AddPlacesScreen> {
                       height: 10.0,
                     ),
                     ImageInput(_selectImage),
+                    SizedBox(
+                      height: 10.0,
+                    ),
+                    LocationInput(),
                   ],
                 ),
               ),
