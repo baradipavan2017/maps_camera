@@ -61,7 +61,7 @@ class _AddPlacesScreenState extends State<AddPlacesScreen> {
             materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
             icon: Icon(Icons.add),
             label: Text('Add Place'),
-            onPressed: () {},
+            onPressed: _savedPlace,
             color: Theme.of(context).accentColor,
           )
         ],

@@ -14,7 +14,7 @@ class GreatPlaces with ChangeNotifier {
     final newPlace = Place(
       id: DateTime.now().toString(),
       image: pickedImage,
-      titile: pickedtitle,
+      title: pickedtitle,
       location: null,
     );
     _items.add(newPlace);
