@@ -6,7 +6,8 @@ class PlaceLocation {
   final double latitude;
   final double longitude;
   final String address;
-  PlaceLocation({
+  //converting to const because 
+ const PlaceLocation({
     @required this.longitude,
     @required this.latitude,
     this.address,
@@ -15,13 +16,13 @@ class PlaceLocation {
 
 class Place {
   final String id;
-  final String titile;
+  final String title;
   final PlaceLocation location;
   final File image;
 
   Place({
     @required this.id,
-    @required this.titile,
+    @required this.title,
     @required this.location,
     @required this.image,
   });
